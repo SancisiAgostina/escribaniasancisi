@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.letra{
+  font-family: 'Roboto Condensed', sans-serif;
+  ;}
+
+body{
+    background-color: #FAFAF2;
+}
+
+.titulo{
+    font-size: 2rem;
+    color: white;
+    margin-block: 0;
+    width: 25%;
+    
+}
+.ES{
+  font-family: 'Zilla Slab Highlight', cursive;
+  margin-block: 0;
+  width: 0%;
+}
+
+.headerindex{
+    background-color: #8B8E81;
+    
+}
+
+.cardindex{
+  background-color: #8B8E81;
+}
+  .logo{
+    width: 40%;
+    height: 50%;
+  }
+
+  .nvar{
+    font-size: 1.5rem;
+
+  }
+
+  .navi{
+    color:white;
+  }
+
+.crd{
+  justify-content: space-evenly;
+  
+}
+
+.button{
+            background-color: #8B8E81;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            position: relative;
+            border-radius: 0 !important;
+            border: none;
+            transition:all 0.3s ease 0s;
+            margin-top: 2vh;
+        }
+
+.button:hover,
+.button.active:hover{
+            color: #ffffff;
+        }
+.button:before{
+            content: "";
+            position: absolute;
+            top: -7px;
+            left: 0;
+            background-color: #4D4F48;
+            width: 30%;
+            height: 4px;
+            transition:all 0.3s ease 0s;
+        }
+.button:after{
+            content: "";
+           position: absolute;
+            bottom: -7px;
+            right: 0;
+            background-color:#4D4F48;
+            width: 30%;
+            height: 4px;
+            transition:all 0.3s ease 0s;
+        }
+
+.button:hover {
+  background-color: #989C8E;
+  color: white;
+}
+.button:hover:before,
+        .btn:hover:after,
+        .btn.active:before,
+        .btn.active:after{
+            width: 100%;
+        }
+
+footer{ 
+  background-color: #8B8E81;
+  margin-top: 4px;
+}
+
+.card-title{
+  font-weight: bolder;
+  font-size: 1.7rem;
+}
